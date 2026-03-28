@@ -1,0 +1,23 @@
+{
+  "name": "kukis-destroyer",
+  "version": "1.0.0",
+  "description": "KDR V1",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "scrape": "node scraper.js",
+    "gen": "node gen.js"
+  },
+  "author": "DimzSelole",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "latest",
+    "colors": "latest",
+    "groq-sdk": "latest",
+    "hpack": "latest",
+    "ssh2": "latest",
+    "user-agents": "latest",
+    "gradient-string": "latest",
+    "mailersend": "latest"
+  }
+}
